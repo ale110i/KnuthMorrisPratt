@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5E006E432581DD0500E954E5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E006E422581DD0500E954E5 /* main.cpp */; };
+		5E006E4C2581DDE300E954E5 /* kmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E006E4A2581DDE300E954E5 /* kmp.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		5E006E3F2581DD0500E954E5 /* KnuthMorrisPratt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KnuthMorrisPratt; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E006E422581DD0500E954E5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5E006E4A2581DDE300E954E5 /* kmp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kmp.cpp; sourceTree = "<group>"; };
+		5E006E4B2581DDE300E954E5 /* kmp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = kmp.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				5E006E422581DD0500E954E5 /* main.cpp */,
+				5E006E4A2581DDE300E954E5 /* kmp.cpp */,
+				5E006E4B2581DDE300E954E5 /* kmp.hpp */,
 			);
 			path = KnuthMorrisPratt;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E006E4C2581DDE300E954E5 /* kmp.cpp in Sources */,
 				5E006E432581DD0500E954E5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
